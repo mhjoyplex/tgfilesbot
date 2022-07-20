@@ -198,9 +198,9 @@ async def get_poster(movie):
             poster=nyav.poster
     else:
         if year:
-            url=f'https://www.omdbapi.com/?s={title}&y={year}&apikey={API_KEY}'
+            url=f'https://telegra.ph/file/75696baa93443813910ae.jpg'
         else:
-            url=f'https://www.omdbapi.com/?s={title}&apikey={API_KEY}'
+            url=f'https://telegra.ph/file/75696baa93443813910ae.jpg'
         try:
             n = requests.get(url)
             a = json.loads(n.text)
