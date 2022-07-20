@@ -28,14 +28,14 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  MHJoyBots Filter Bot
+➥ Name :  MOTION PICTURE FILES BOT
     
 ➥ Creator : [MHJoy](
-https://telegram.dog/mhjoybots)
+https://telegram.dog/mhjoy99)
 
 ➥ Language : Python3
 
 ➥ Library : Pyrogram Asyncio 1.13.0
 
-➥ Tutorial : [Click Me](https://telegram.dog/mhjoybots)
+➥ Join To Use Me : [Click Me](https://telegram.dog/MotionPicturerequest2)
 """
