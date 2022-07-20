@@ -149,6 +149,9 @@ async def group(client, message):
             buttons.append(
                 [InlineKeyboardButton(text="📃 Pages 1/1",callback_data="pages")]
             )
+            buttons.append(
+                [InlineKeyboardButton(text="⚡ Powered By MOVIE WALA",callback_data="none")]
+            )       
             poster=None
             if API_KEY:
                 poster=await get_poster(search)
