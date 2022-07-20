@@ -60,7 +60,7 @@ async def filter(client, message):
                 file_id = file.file_id
                 filename = f"[{get_size(file.file_size)}] {file.file_name}"
                 btn.append(
-                    [InlineKeyboardButton(text=f"{filename}",callback_data=f"pr0fess0r_99#{file_id}")]
+                    [InlineKeyboardButton(text=f"{filename}",callback_data=f"motionpicture#{file_id}")]
                     )
         else:
             await client.send_photo(chat_id=message.from_user.id, photo="https://telegra.ph/file/c6b24c0be966a0de95419.jpg")
