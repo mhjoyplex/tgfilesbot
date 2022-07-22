@@ -91,7 +91,7 @@ async def filter(client, message):
                 await message.reply_photo(photo="https://telegra.ph/file/c6b24c0be966a0de95419.jpg", caption=mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
-                await message.reply_photo(photo="https://telegra.ph/file/c6b24c0be966a0de95419.jpg", mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
             return
 
         data = BUTTONS[keyword]
@@ -109,7 +109,7 @@ async def filter(client, message):
         if poster:
             await message.reply_photo(photo="https://telegra.ph/file/c6b24c0be966a0de95419.jpg", caption=mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
         else:
-            await message.reply_photo(photo="https://telegra.ph/file/c6b24c0be966a0de95419.jpg", mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
 
 @Client.on_message(filters.text & filters.group & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.group & filters.incoming)
 async def group(client, message):
