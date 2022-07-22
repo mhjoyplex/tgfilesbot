@@ -88,7 +88,7 @@ async def filter(client, message):
             if API_KEY:
                 poster=await get_poster(search)
             if poster:
-                await message.reply_photo(photo=poster, caption=mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo="https://telegra.ph/file/c6b24c0be966a0de95419.jpg", caption=mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
                 await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
@@ -107,7 +107,7 @@ async def filter(client, message):
         if API_KEY:
             poster=await get_poster(search)
         if poster:
-            await message.reply_photo(photo=poster, caption=mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo="https://telegra.ph/file/c6b24c0be966a0de95419.jpg", caption=mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
         else:
             await message.reply_text(mo_tech_yt, reply_markup=InlineKeyboardMarkup(buttons))
 
